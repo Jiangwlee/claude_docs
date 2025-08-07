@@ -7,3 +7,9 @@
 ## 基本用法
 
 将对应的文档链接提供给 Claude，告诉 Claude 阅读链接后再进行编码。
+
+---
+
+# 页面导航
+
+1. [ADK开发指南](development-guide/adk_development_guide.md)
