@@ -40,12 +40,21 @@ Break down coding tasks and make a plan:
 3. Commit or save the code after each completed task.
 </execution>
 
+<format>
+Run the following shell command to format only the Python files that were modified or added in this session. This ensures that the code adheres to the project's style standards before completion.
+
+<command>
+git diff --name-only --diff-filter=AM HEAD | grep '\\.py$' | xargs ruff format
+</command>
+</format>
+
 ## Workflow
 1. Follow <read-design-doc> section to understand the feature.
 2. Follow <research> section to understand the current project.
 3. Follow <plan> section to create plan.md for the feature development.
 4. Follow <execution> section to complete a task.
 5. Repeat the <execution> cycle until all tasks are complete.
+6. Follow <format> section to format the modified code.
 
 ---
 
