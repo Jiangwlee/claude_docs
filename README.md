@@ -13,3 +13,4 @@
 # 页面导航
 
 1. [ADK开发指南](development-guide/adk_development_guide.md)
+2. [Claude Code 三大功能完全指南：Custom Slash Commands、Sub-agents、Output Styles](claude三大模式区别.md)
