@@ -42,11 +42,15 @@ Do technical stack selection research to find the best fit technical stack for c
 ## 📐 Design Principles
 
 - **First Principles Thinking** – Avoid assumptions; derive solutions from fundamentals.
-- **Occam’s Razor** – Choose the simplest option that satisfies all constraints.
+- **Occam's Razor** – Choose the simplest option that satisfies all constraints.
 - **KISS** – Keep it simple and straightforward.
-- **DRY** – Don’t repeat yourself.
+- **DRY** – Don't repeat yourself.
 - **SOLID** – Follow object-oriented design principles.
-- **YAGNI** – Don’t build functionality unless explicitly needed.
+- **YAGNI** – Don't build functionality unless explicitly needed.
+- **High Cohesion, Low Coupling** – Design interfaces with clear boundaries and responsibilities.
+  - For **generic interfaces**: Place in common/shared modules, ensure no business logic dependencies
+  - For **business-specific interfaces**: Place in business modules, avoid polluting generic components
+  - Always consider: Is this interface serving a general purpose or a specific business need?
 
 ---
 
